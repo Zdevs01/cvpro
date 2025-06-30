@@ -115,71 +115,118 @@
 </div>
 <!-- Hero End -->
 <!-- About Start -->
-<div class="about wow fadeInUp py-5" data-wow-delay="0.1s" id="about" style="background-color: #f5f7fa;">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Image (s’adapte au contenu) -->
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="about-img text-center">
-                    <img src="img/v1.jpg" alt="Vinny Ngon portrait" class="img-fluid rounded shadow-sm" style="width: 100%; height: auto; max-height: 600px; object-fit: contain;">
-                </div>
-            </div>
-
-            <!-- Texte -->
-            <div class="col-lg-6">
-                <div class="about-content">
-                    <div class="section-header text-left mb-4">
-                        <p class="text-primary">À propos de moi</p>
-                        <h2 class="font-weight-bold">Ingénieur passionné par la robotique 🤖</h2>
-                    </div>
-                    <div class="about-text mb-4">
-                        <p>
-                            Étudiant en 4ᵉ année à <strong>JUNIA-ISEN Lille</strong> 🏫, je me spécialise en <strong>robotique mobile</strong>, <strong>mécatronique</strong> et <strong>IA</strong>.  
-                            Depuis plusieurs années, je conçois, programme et intègre des systèmes intelligents pour relever des défis techniques ambitieux 🚀.  
-                            De la main robotique connectée à la flotte de fauteuils intelligents ♿, chaque projet est une opportunité de transformer des idées en solutions concrètes et innovantes.  
-                            <br><br>
-                            Je suis actuellement à la recherche d’un <strong>stage de 4 mois</strong> dans un environnement exigeant pour continuer à apprendre, créer et innover.
-                        </p>
-                    </div>
-
-                    <!-- Skills -->
-                    <div class="skills mb-4">
-                        <div class="skill-name">
-                            <p>Robot Operating System (ROS2) 🧠</p><p>90%</p>
-                        </div>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"></div>
-                        </div>
-
-                        <div class="skill-name">
-                            <p>Python / C++ / MATLAB 🖥️</p><p>85%</p>
-                        </div>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;"></div>
-                        </div>
-
-                        <div class="skill-name">
-                            <p>Systèmes embarqués & IA embarquée 🔧</p><p>80%</p>
-                        </div>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;"></div>
-                        </div>
-
-                        <div class="skill-name">
-                            <p>Conception 3D (SolidWorks, Fusion360) 🛠️</p><p>75%</p>
-                        </div>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"></div>
-                        </div>
-                    </div>
-
-                    <a class="btn btn-outline-primary px-4" href="#portfolio">📂 Voir mes projets</a>
-                </div>
-            </div>
+<div class="about-section py-5" id="about" style="background: linear-gradient(to right, #f5f7fa, #eef1f6); overflow: hidden;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Image animée -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="about-img text-center">
+          <img src="img/v1.jpg" alt="Vinny Ngon portrait" class="img-fluid rounded shadow zoom-img" style="width: 100%; max-height: 600px; object-fit: contain;">
         </div>
+      </div>
+
+      <!-- Texte avec animation -->
+      <div class="col-lg-6">
+        <div class="about-content animate-slide fade-in">
+          <div class="section-header text-left mb-4">
+            <p class="text-primary fw-bold">À propos de moi</p>
+            <h2 class="fw-bold">Ingénieur passionné par la robotique 🤖</h2>
+          </div>
+          <div class="about-text mb-4">
+            <p>
+              Étudiant en 4ᵉ année à <strong>JUNIA-ISEN Lille</strong> 🏫, je me spécialise en <strong>robotique mobile</strong>, <strong>mécatronique</strong> et <strong>IA</strong>.  
+              Depuis plusieurs années, je conçois, programme et intègre des systèmes intelligents pour relever des défis techniques ambitieux 🚀.  
+              De la main robotique connectée à la flotte de fauteuils intelligents ♿, chaque projet est une opportunité de transformer des idées en solutions concrètes et innovantes.  
+              <br><br>
+              Je suis actuellement à la recherche d’un <strong>stage de 4 mois</strong> dans un environnement exigeant pour continuer à apprendre, créer et innover.
+            </p>
+          </div>
+
+          <!-- Skills animés -->
+          <div class="skills mb-4">
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>Robot Operating System (ROS2) 🧠</span><span>90%</span></div>
+              <div class="progress"><div class="progress-bar bg-primary animate-bar" style="width: 0%;" data-width="90%"></div></div>
+            </div>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>Python / C++ / MATLAB 🖥️</span><span>85%</span></div>
+              <div class="progress"><div class="progress-bar bg-primary animate-bar" style="width: 0%;" data-width="85%"></div></div>
+            </div>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>Systèmes embarqués & IA embarquée 🔧</span><span>80%</span></div>
+              <div class="progress"><div class="progress-bar bg-primary animate-bar" style="width: 0%;" data-width="80%"></div></div>
+            </div>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between"><span>Conception 3D (SolidWorks, Fusion360) 🛠️</span><span>75%</span></div>
+              <div class="progress"><div class="progress-bar bg-primary animate-bar" style="width: 0%;" data-width="75%"></div></div>
+            </div>
+          </div>
+
+          <a class="btn btn-primary px-4 py-2 rounded-pill" href="#portfolio">📂 Voir mes projets</a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <!-- About End -->
+<style>
+/* Animation fade/slide */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.2s ease-out forwards;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Zoom image lent et constant */
+.zoom-img {
+  transition: transform 10s ease-in-out;
+  animation: slowZoom 20s infinite alternate ease-in-out;
+}
+
+@keyframes slowZoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+/* Animation de barre de progression */
+.animate-bar {
+  transition: width 2s ease-in-out;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const bars = document.querySelectorAll(".animate-bar");
+
+  const triggerBars = () => {
+    bars.forEach(bar => {
+      const width = bar.getAttribute("data-width");
+      bar.style.width = width;
+    });
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        triggerBars();
+        observer.disconnect(); // déclenche une seule fois
+      }
+    });
+  }, { threshold: 0.3 });
+
+  if (bars.length > 0) observer.observe(bars[0]);
+});
+</script>
 
 
         <!-- Service Start -->
@@ -298,137 +345,258 @@
     </div>
 </div>
 <!-- Experience End -->
+<!-- Portfolio Start -->
+<style>
+  .portfolio {
+    padding: 60px 0;
+    background-color: #f5f7fa;
+  }
 
-        <!-- Portfolio Start -->
+  .portfolio .section-header p {
+    color: #00ffd5;
+    font-weight: bold;
+  }
+
+  .portfolio .section-header h2 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  #portfolio-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  #portfolio-filter li {
+    margin: 8px 10px;
+    padding: 8px 16px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+
+  #portfolio-filter .filter-active,
+  #portfolio-filter li:hover {
+    background: #00ffd5;
+    color: #000;
+  }
+
+  .portfolio-wrap {
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio-wrap:hover {
+    transform: translateY(-5px);
+  }
+
+  .portfolio-img img,
+  .portfolio-img video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .portfolio-text {
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .portfolio-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .portfolio-text .btn {
+    background-color: #00ffd5;
+    color: #000;
+    padding: 6px 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-img img,
+    .portfolio-img video {
+      height: 200px;
+    }
+  }
+
+  .banner {
+    margin-top: 60px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    padding: 60px 0;
+  }
+
+  .banner .btn {
+    background-color: #00ffd5;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .banner h2 span {
+    color: #00ffd5;
+  }
+</style>
+
 <div class="portfolio" id="portfolio">
-    <div class="container">
-        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-            <p>My Portfolio</p>
-            <h2>Robotics Projects Showcase</h2>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <ul id="portfolio-filter">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-robot">Robot Suiveur</li>
-                    <li data-filter=".filter-chair">Wheelchair Navigation</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row portfolio-container">
-            <!-- Image 1 : Robot suiveur -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-robot wow fadeInUp" data-wow-delay="0.0s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <img src="img/robot1.jpg" alt="Robot Suiveur 1">
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Robot Suiveur - Vue 1</h3>
-                        <a class="btn" href="img/robot1.jpg" data-lightbox="portfolio">+</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 2 : Robot suiveur -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-robot wow fadeInUp" data-wow-delay="0.2s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <img src="img/robot2.jpg" alt="Robot Suiveur 2">
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Robot Suiveur - Vue 2</h3>
-                        <a class="btn" href="img/robot2.jpg" data-lightbox="portfolio">+</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 3 : Robot suiveur -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-robot wow fadeInUp" data-wow-delay="0.4s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <img src="img/robot3.jpg" alt="Robot Suiveur 3">
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Robot Suiveur - Vue 3</h3>
-                        <a class="btn" href="img/robot3.jpg" data-lightbox="portfolio">+</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vidéo 1 : Robot suiveur -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-robot wow fadeInUp" data-wow-delay="0.6s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <video src="img/robot-video1.mp4" autoplay muted loop playsinline style="width: 100%; height: auto;"></video>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Robot Suiveur en Action</h3>
-                        <div class="portfolio-text">
-    <h3>Robot Suiveur en Action</h3>
-    <a class="btn glightbox" href="img/robot-video1.mp4" data-type="video">+</a>
-</div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vidéo 2 : Robot suiveur -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-robot wow fadeInUp" data-wow-delay="0.8s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <video src="img/robot-video2.mp4" autoplay muted loop playsinline style="width: 100%; height: auto;"></video>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Suivi Automatique Avancé</h3>
-                                          <div class="portfolio-text">
-    <h3>Robot Suiveur en Action</h3>
-    <a class="btn glightbox" href="img/robot-video2.mp4" data-type="video">+</a>
-</div>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vidéo 3 : Navigation fauteuil roulant -->
-            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-chair wow fadeInUp" data-wow-delay="1.0s">
-                <div class="portfolio-wrap">
-                    <div class="portfolio-img">
-                        <video src="img/wheelchair-navigation.mp4" autoplay muted loop playsinline style="width: 100%; height: auto;"></video>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Navigation Autonome du Fauteuil</h3>
-                                          <div class="portfolio-text">
-    <h3>Navigation Autonome du Fauteuil</h3>
-    <a class="btn glightbox" href="img/wheelchair-navigation.mp4" data-type="video">+</a>
-</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+      <p>My Portfolio</p>
+      <h2>Robotics Projects Showcase</h2>
     </div>
+
+    <div class="row">
+      <div class="col-12">
+        <ul id="portfolio-filter">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-robot">Robot Suiveur</li>
+          <li data-filter=".filter-chair">Wheelchair Navigation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row portfolio-container">
+      <!-- Robot Suiveur -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <img src="img/robot1.jpg" alt="Robot Suiveur 1">
+          </div>
+          <div class="portfolio-text">
+            <h3>Robot Suiveur - Vue 1</h3>
+            <a class="btn" href="img/robot1.jpg" data-lightbox="portfolio">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <img src="img/robot2.jpg" alt="Robot Suiveur 2">
+          </div>
+          <div class="portfolio-text">
+            <h3>Robot Suiveur - Vue 2</h3>
+            <a class="btn" href="img/robot2.jpg" data-lightbox="portfolio">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <img src="img/robot3.jpg" alt="Robot Suiveur 3">
+          </div>
+          <div class="portfolio-text">
+            <h3>Robot Suiveur - Vue 3</h3>
+            <a class="btn" href="img/robot3.jpg" data-lightbox="portfolio">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <video src="img/robot-video1.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="portfolio-text">
+            <h3>Robot Suiveur en Action</h3>
+            <a class="btn glightbox" href="img/robot-video1.mp4" data-type="video">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-robot">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <video src="img/robot-video2.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="portfolio-text">
+            <h3>Suivi Automatique Avancé</h3>
+            <a class="btn glightbox" href="img/robot-video2.mp4" data-type="video">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wheelchair Navigation -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-chair">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <video src="img/3.MOV" autoplay muted loop playsinline></video>
+          </div>
+          <div class="portfolio-text">
+            <h3>Navigation Autonome du Fauteuil</h3>
+            <a class="btn glightbox" href="img/3.MOV" data-type="video">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-chair">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <video src="img/2.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="portfolio-text">
+            <h3>Fauteuil SLAM & Obstacle</h3>
+            <a class="btn glightbox" href="img/2.mp4" data-type="video">+</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-chair">
+        <div class="portfolio-wrap">
+          <div class="portfolio-img">
+            <video src="img/4.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="portfolio-text">
+            <h3>Contrôle intelligent</h3>
+            <a class="btn glightbox" href="img/4.mp4" data-type="video">+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- Portfolio End -->
 
-        
-       <!-- Banner Start -->
-<div class="banner wow zoomIn" data-wow-delay="0.1s" style="background: linear-gradient(to right, #0f2027, #203a43, #2c5364); color: #fff; padding: 60px 0;">
-    <div class="container">
-        <div class="section-header text-center">
-            <p style="color: #00ffd5;">Ingénieur Robotique & Mécatronique</p>
-            <h2 style="color: #fff;">Vinny Juniors <span style="color: #00ffd5;">Ngon</span></h2>
-        </div>
-        <div class="container banner-text text-center">
-            <p style="max-width: 800px; margin: 0 auto; font-size: 18px;">
-                Passionné par les systèmes autonomes, la mécatronique et l’intelligence artificielle, je développe des solutions innovantes alliant robotique, vision par ordinateur et blockchain. Découvrez mes projets et compétences à travers mon portfolio interactif.
-            </p>
-            <div style="margin-top: 30px;">
-                <a class="btn" href="Vinny Juniors NGON_CV.pdf" download>Télécharger mon CV</a>
-                <a class="btn" href="#contact" style="margin-left: 15px;">Me Contacter</a>
-            </div>
-        </div>
+<!-- Banner Start -->
+<div class="banner wow zoomIn" data-wow-delay="0.1s">
+  <div class="container">
+    <div class="section-header text-center">
+      <p style="color: #00ffd5;">Ingénieur Robotique & Mécatronique</p>
+      <h2>Vinny Juniors <span>Ngon</span></h2>
     </div>
+    <div class="banner-text text-center">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 18px;">
+        Passionné par les systèmes autonomes, la mécatronique et l’intelligence artificielle, je développe des solutions innovantes alliant robotique, vision par ordinateur et blockchain. Découvrez mes projets et compétences à travers mon portfolio interactif.
+      </p>
+      <div style="margin-top: 30px;">
+        <a class="btn" href="Vinny Juniors NGON_CV.pdf" download>Télécharger mon CV</a>
+        <a class="btn" href="#contact" style="margin-left: 15px;">Me Contacter</a>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- Banner End -->
+
 
   <!-- Section Contact -->
 <section id="contact" class="contact-section" style="padding: 80px 0; background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: white;">
@@ -468,17 +636,58 @@
   </div>
 </section>
 
-<!-- Boutons flottants WhatsApp & LinkedIn -->
-<a href="https://wa.me/+33 612345678" target="_blank" class="floating-btn whatsapp" title="Contact WhatsApp">
+<!-- Boutons flottants WhatsApp & Email -->
+<style>
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #25D366;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .floating-btn.email {
+    bottom: 80px;
+    background-color: #ea4335;
+  }
+</style>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/33780849092?text=Bonjour%2C%20j'ai%20vu%20votre%20portfolio%20et%20je%20souhaiterais%20échanger%20avec%20vous%20🙂" 
+   target="_blank" 
+   class="floating-btn whatsapp" 
+   title="Contact WhatsApp">
   💬
 </a>
-<a href="https://www.linkedin.com/in/vinny-ngon" target="_blank" class="floating-btn linkedin" title="Profil LinkedIn">
-  🔗
+
+<!-- Email -->
+<a href="mailto:vinnyngon5@gmail.com?subject=Contact%20depuis%20votre%20portfolio&body=Bonjour%20Vinny%2C%0AJ'ai%20vu%20votre%20portfolio%20et%20je%20souhaiterais%20discuter%20avec%20vous.%0AMerci%20!" 
+   class="floating-btn email" 
+   title="Envoyer un Email">
+  📧
 </a>
+
 
 <!-- Styles supplémentaires -->
 <style>
 
+
+
+    
 
     .navbar-nav .nav-link {
     font-weight: 500;
